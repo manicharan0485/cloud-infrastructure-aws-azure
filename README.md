@@ -10,16 +10,11 @@ Production-grade Terraform configurations and CI/CD pipeline templates for multi
 cloud-infrastructure-aws-azure/
 ├── terraform/
 │   ├── aws/
-│   │   ├── main.tf           # EC2, VPC, S3, RDS, IAM
-│   │   ├── variables.tf
-│   │   └── outputs.tf
+│   │   └── main.tf           # EC2, VPC, S3, RDS, IAM (variables and outputs inline)
 │   └── azure/
-│       ├── main.tf           # Azure Backup Vault, VM, Networking
-│       ├── variables.tf
-│       └── outputs.tf
+│       └── main.tf           # Azure Backup Vault, VM, Networking (variables inline)
 ├── pipelines/
-│   ├── jenkins_pipeline.groovy     # Jenkins declarative pipeline
-│   └── github_actions_deploy.yml   # GitHub Actions CI/CD
+│   └── jenkins_pipeline.groovy     # Jenkins declarative pipeline
 └── README.md
 ```
 
@@ -31,7 +26,7 @@ cloud-infrastructure-aws-azure/
 |----------|-------|
 | Cloud | AWS (EC2, S3, RDS, VPC, IAM), Microsoft Azure (IaaS/PaaS) |
 | IaC | Terraform >= 1.0 |
-| CI/CD | Jenkins, GitHub Actions |
+| CI/CD | Jenkins |
 | Containers | Docker, Kubernetes |
 | OS | Ubuntu 22.04, Windows Server 2022 |
 
