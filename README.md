@@ -1,6 +1,8 @@
 # ☁️ Cloud Infrastructure — AWS & Azure
 
-Production-grade Terraform configurations and CI/CD pipeline templates for multi-cloud infrastructure deployment on AWS and Azure.
+Terraform configurations and a Jenkins pipeline template for deploying infrastructure on AWS and Azure.
+
+> 🧪 **Reference / lab project.** Original practice code written to demonstrate the approach. It is not taken from an employer's codebase. Review and adapt before using it in your own environment.
 
 ---
 
